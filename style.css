@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Pixelify Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#login-container {
+  width: 300px;
+  padding: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.548);
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+#login-container button {
+  background-color: #cfcfcf;
+  color: rgb(0, 0, 0);
+  padding: 5px 18px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Pixelify Sans', sans-serif;
+  cursor: pointer;
+  transition: background-color 900ms;
+}
+
+#login-container button:hover {
+  /* Estilos quando o mouse passa sobre o botão */
+  background-color: #FF0000;
+  /* Cor de fundo ao passar o mouse */
+}
+
+#login-container h3 {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+#login-container h3:hover {
+  color: rgb(255, 0, 0);
+}
+
+#login-container footer #icons img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#login-container #google-button {
+  display: flexbox;
+  justify-content: center;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+#login-container #google-button img {
+  width: 10px;
+  height: 10px;
+  margin-right: 1px;
+  vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+  #login-container {
+    width: 90%;
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #login-container {
+    width: 70%;
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1025px) {
+  #login-container {
+    width: 50%;
+    max-width: 800px;
+  }
+}
